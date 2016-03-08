@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Sport type:</strong>
+  <%= @league.sport_type %>
+</p>
+
+<p>
+  <strong>Age group low:</strong>
+  <%= @league.age_group_low %>
+</p>
+
+<p>
+  <strong>Age group high:</strong>
+  <%= @league.age_group_high %>
+</p>
+
+<%= link_to 'Edit', edit_league_path(@league) %> |
+<%= link_to 'Back', leagues_path %>

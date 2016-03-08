@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sport_type: MyString
+  age_group_low: 1
+  age_group_high: 1
+
+two:
+  sport_type: MyString
+  age_group_low: 1
+  age_group_high: 1
