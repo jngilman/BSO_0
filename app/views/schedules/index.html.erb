@@ -13,7 +13,7 @@
 <% end %>
 
 
-<h1>Listing Schedules</h1>
+<h1>Game Days</h1>
 
 <table class="table">
   <thead>
@@ -30,6 +30,7 @@
     <% @schedules.each do |schedule| %>
       <tr>
         <td><%= schedule.league_id %></td>
+        <td><%= schedule.team_id %></td>
         <td><%= schedule.team_id %></td>
         <td><%= schedule.game_date %></td>
         <!--<td><%= link_to 'Show', schedule %></td>
