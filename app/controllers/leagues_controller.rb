@@ -1,6 +1,6 @@
 class LeaguesController < ApplicationController
   before_action :set_league, only: [:show, :edit, :update, :destroy]
-
+  before_action :authenticate_member!
   # GET /leagues
   # GET /leagues.json
   def index
