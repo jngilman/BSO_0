@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 
 gem 'devise'
 gem 'bootstrap-sass'
+gem "simple_calendar", "~> 2.0"
 
 
 
